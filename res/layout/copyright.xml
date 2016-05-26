@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textSize="17sp"
+        android:autoLink="all"
+        android:textColorLink="#FF0000"
+        android:text="提示:    更新内容时请保证可用的网络访问\n\nbug反馈:    xanarry@163.com\n\n开发者:    xanarry\n\n版本:    v2.0.1\n\n齐齐哈尔大学        2015-9-14"
+         >
+    </TextView>
+
+   
+    
+   
+
+   
+
+</LinearLayout>

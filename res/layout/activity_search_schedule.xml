@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="86dp"
+        	android:gravity="center_horizontal"
+        	android:orientation="horizontal" >
+        
+            <NumberPicker
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="年"/>
+
+            <NumberPicker
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="月"
+                android:textSize="20.0sp" />
+
+            <NumberPicker
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="日"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+        
+        
+        <Button android:id="@+id/bydate"
+        	android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="按日期查询"
+            android:background="@drawable/selector_bytton"
+            android:textColor="#000000"/>
+    </LinearLayout> 
+    
+    <Space
+    	android:layout_width="wrap_content"
+    	android:layout_height="10dp" />
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="86dp"
+        	android:gravity="center_horizontal"
+        	android:orientation="horizontal" >
+
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="第"/>
+
+            <NumberPicker
+                android:id="@+id/week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="周 星期"
+            android:textSize="20.0sp" />
+            
+            <NumberPicker
+                android:id="@+id/weekday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        
+        <Button android:id="@+id/byclasstime"
+        	android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="按周数星期查询"
+            android:background="@drawable/selector_bytton"
+            android:textColor="#000000"
+            android:onClick="reset"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.syllabus"
+	android:versionCode="2"
+	android:versionName="1.2.3_04212015" >
+
+	<uses-sdk
+		android:minSdkVersion="14"
+		android:targetSdkVersion="22" />
+
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+	</uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" >
+	</uses-permission>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name="com.syllabus.MainActivity"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<!-- 使用的新的活动要在此注册，不然程序运行会出错 -->
+		<activity android:name="intents.ModifyContent" />
+		<activity android:name="intents.WeekSchedule" />
+		<activity android:name="intents.EditSchedule" />
+		<activity android:name="intents.Copyright" />
+		<activity android:name="intents.TitleList" />
+		<activity android:name="intents.SearchSyllabus" />
+		<activity android:name="intents.UpdateInformation" />
+		<activity android:name="intents.Laborary" />
+		<activity
+			android:name="intents.Update"
+			android:label="@string/title_activity_update" >
+		</activity>
+		<activity
+			android:name="intents.ScoreList"
+			android:label="@string/title_activity_semester_list" >
+		</activity>
+		<activity
+			android:name="intents.SearchSchedule"
+			android:label="@string/title_activity_search_schedule" >
+		</activity>
+	</application>
+
+</manifest>

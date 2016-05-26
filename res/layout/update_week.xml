@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="112dp"
+    	android:gravity="center_horizontal"
+    	android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="今天是开学第"
+            android:textSize="20sp" />
+
+        <NumberPicker
+            android:id="@+id/new_picked_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="周"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetWeek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         android:background="@drawable/selector_bytton"
+        android:onClick="reset"
+        android:text="点我修改"
+        android:textColor="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Syllabus</string>
+	<string name="weekSyllabus">本周课表</string>
+	<string name="modifySubject">修改课程</string>
+	<string name="addSubject">添加课程</string>
+	<string name="delSubject">删除课程</string>
+	<string name="editionInfo">软件信息</string>
+	<string name="title">Syllabus</string>
+	<string name="tname">课程名字:</string>
+	<string name="nameHint">课程名字</string>
+	<string name="tlocation">上课地点:</string>
+	<string name="locationHint">上课地点</string>
+	<string name="tclassTime">上课时间</string>
+	<string name="tclassWeek">上课周数</string>
+	<string name="tsubjectAttr">课程属性:</string>
+	<string name="ttestAttr">考试类型:</string>
+	<string name="tteacher">任教老师:</string>
+	<string name="tsubmit">添加记录</string>
+	<string name="treset">重置所有</string>
+	<string name="account">学号</string>
+	<string name="password">密码</string>
+	<string name="verifycode">验证码</string>
+	<string name="title_activity_update">Update</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="title_activity_semester_list">SemesterList</string>
+	<string name="title_activity_search_schedule">SearchSchedule</string>
+
+</resources>
